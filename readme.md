@@ -4,9 +4,8 @@
 
 **前置准备**
 
-1. 安装 xmake 和 qt
+1. 安装 xmake 
 2. 若为 Windows 平台，则还需要安装 mingw
-3. 若为 Windows 平台，使用命令 `xmake config --yes --plat=mingw --mingw=c:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/ --qt=c:/Qt5/5.15.2/mingw81_64/` 进行项目配置初始化（注意更改命令行中的路径...）
 
 **为 Windows 平台的 vscode 配置自动补全以改进开发体验（可选）**
 
@@ -29,12 +28,6 @@
 
 **编译命令**
 
-`xmake run mocvserver` 运行服务器端
+`xmake run deeplearningtest` 运行服务
 
-`xmake run mocvclient` 运行客户端
-
-`xmake build mocvserver` 编译服务器端
-
-`xmake build mocvclient` 编译客户端
-
-`xmake build` 编译所有程序
+`xmake build deeplearningtest` 编译服务
